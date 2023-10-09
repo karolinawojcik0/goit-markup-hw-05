@@ -312,13 +312,13 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients:hover,
 .clients:focus {
   border-color: var(--pressed-state);
   color: var(--pressed-state);
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients-items {
@@ -345,7 +345,6 @@ ol {
 .social-items-index:hover,
 .social-items-index:focus {
   background-color: #404bbf;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-items-portfolio {
