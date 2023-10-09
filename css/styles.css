@@ -76,7 +76,7 @@ ol {
 
 .link-menu {
   position: relative;
-  color: var(--pressed-state);
+  color: #404BBF;
 }
 
 .link-menu::after {
@@ -372,6 +372,7 @@ ol {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .social-items-footer:hover,
