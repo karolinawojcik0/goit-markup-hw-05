@@ -552,14 +552,6 @@ ol {
     0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-.link-card:hover .overlay {
-  transform: translateY(0%);
-}
-
-.link-card:focus .overlay {
-  transform: translateY(0%);
-}
-
 .images-container {
   position: relative;
   overflow: hidden;
@@ -578,4 +570,12 @@ ol {
   height: 100%;
   width: 100%;
   transform: translateY(100%);
+}
+
+.link-card:hover .overlay {
+  transform: translateY(0%);
+}
+
+.link-card:focus .overlay {
+  transform: translateY(0%);
 }
