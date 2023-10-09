@@ -82,11 +82,11 @@ ol {
 
 .link-menu::after {
   position: absolute;
-  content: "";
+  content: '';
   left: 0;
   bottom: -1px;
   height: 4px;
-  background-color: #404bbf;
+  background-color: currentColor;
   border-radius: 2px;
 }
 
