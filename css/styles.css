@@ -76,7 +76,8 @@ ol {
 
 .link-menu {
   position: relative;
-  color: #404BBF;
+  color: #404bbf;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .link-menu::after {
@@ -88,7 +89,6 @@ ol {
   background-color: var(--pressed-state);
   border-radius: 2px;
   color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
-
 
 }
 
@@ -185,7 +185,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
-  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
