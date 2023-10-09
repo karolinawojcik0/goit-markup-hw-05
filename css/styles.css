@@ -23,6 +23,8 @@ body {
 *::before,
 *::after {
   box-sizing: border-box;
+
+
 }
 
 * {
@@ -70,6 +72,24 @@ ol {
 
 .link {
   text-decoration: none;
+}
+
+.link-menu {
+  position: relative;
+  color: var(--pressed-state);
+}
+
+.link-menu::after {
+  position: absolute;
+  content: "";
+  left: 0;
+  bottom: -1px;
+  height: 4px;
+  background-color: var(--pressed-state);
+  border-radius: 2px;
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
 
 .link-card {
@@ -165,6 +185,7 @@ ol {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding: 24px 0;
+  color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .contact:hover,
