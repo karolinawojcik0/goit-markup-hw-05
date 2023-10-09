@@ -276,7 +276,7 @@ ol {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  text-align: center;
+  text-align: flex-start;
 }
 
 .feature {
@@ -286,7 +286,7 @@ ol {
   line-height: 1.5;
   font-size: 16px;
   letter-spacing: 0.02em;
-  text-align: center;
+  text-align: flex-start;
 
 }
 
