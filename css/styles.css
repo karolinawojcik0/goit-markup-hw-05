@@ -620,5 +620,10 @@ ol {
   letter-spacing: 0.02em;
   text-align: center;
   padding: 8px;
+}
 
+.is-hidden {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
 }
